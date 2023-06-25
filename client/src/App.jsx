@@ -1,6 +1,7 @@
 import Canvas from "./canvas"
 import Customizer from './pages/Customizer'
 import Home from "./pages/Home"
+import { useState } from "react"
 
 function App() {
   const [count, setCount] = useState(0)
